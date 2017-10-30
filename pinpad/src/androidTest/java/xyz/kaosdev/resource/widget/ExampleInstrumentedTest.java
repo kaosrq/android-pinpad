@@ -1,4 +1,4 @@
-package co.paystack.android.design.widget;
+package xyz.kaosdev.resource.widget;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("co.paystack.android.design.widget.test", appContext.getPackageName());
+        assertEquals("xyz.kaosdev.resource.widget.test", appContext.getPackageName());
     }
 }

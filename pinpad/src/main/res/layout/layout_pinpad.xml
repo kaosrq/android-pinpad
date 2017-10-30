@@ -45,20 +45,20 @@
             android:layout_weight="1">
 
             <!-- button 1 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_1"
                 app:button_text_numeric="@string/pstck_pinpad__num_1"/>
 
             <!-- button 2 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_2"
                 app:button_text_numeric="@string/pstck_pinpad__num_2"
                 app:button_text_alpha="abc"/>
 
             <!-- button 3 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_3"
                 app:button_text_numeric="@string/pstck_pinpad__num_3"
@@ -73,21 +73,21 @@
             android:layout_weight="1">
 
             <!-- button 4 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_4"
                 app:button_text_numeric="@string/pstck_pinpad__num_4"
                 app:button_text_alpha="ghi"/>
 
             <!-- button 5 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_5"
                 app:button_text_numeric="@string/pstck_pinpad__num_5"
                 app:button_text_alpha="jkl"/>
 
             <!-- button 6 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_6"
                 app:button_text_numeric="@string/pstck_pinpad__num_6"
@@ -101,21 +101,21 @@
             android:layout_weight="1">
 
             <!-- button 7 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_7"
                 app:button_text_numeric="@string/pstck_pinpad__num_7"
                 app:button_text_alpha="pqrs"/>
 
             <!-- button 8 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_8"
                 app:button_text_numeric="@string/pstck_pinpad__num_8"
                 app:button_text_alpha="tuv"/>
 
             <!-- button 9 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_9"
                 app:button_text_numeric="@string/pstck_pinpad__num_9"
@@ -129,19 +129,19 @@
             android:layout_weight="1">
 
             <!-- back button -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_back"
                 app:button_drawable="@drawable/ps_backspace"/>
 
             <!-- button 0 -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_0"
                 app:button_text_numeric="@string/pstck_pinpad__num_0"/>
 
             <!-- done button -->
-            <co.paystack.android.design.widget.PinPadButton
+            <xyz.kaosdev.resource.widget.PinPadButton
                 style="@style/Widget.PinPad"
                 android:id="@+id/pstck_pinpad__btn_done"
                 app:button_text_numeric="Done"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<co.paystack.android.design.widget.ForegroundRelativeLayout
+<xyz.kaosdev.resource.widget.ForegroundRelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
@@ -49,4 +49,4 @@
         android:visibility="gone"
         android:layout_centerInParent="true"
         />
-</co.paystack.android.design.widget.ForegroundRelativeLayout>
+</xyz.kaosdev.resource.widget.ForegroundRelativeLayout>

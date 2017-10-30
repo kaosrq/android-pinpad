@@ -1,4 +1,4 @@
-package co.paystack.android.design.widget;
+package xyz.kaosdev.resource.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;

@@ -35,6 +35,28 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+// Bintray
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+bintray {
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+
+    configurations = ['archives']
+
+    pkg {
+        repo = 'maven'
+        name = 'pinpad' //YOUR PACKAGE NAME
+        desc = 'A collections of methods to work with Date objects.' // YOUR LIBRARY DESCRIPTION
+        websiteUrl = '' // YOUR SITE
+        vcsUrl = '' // YOUR GIT REPO
+        licenses = ["Apache-2.0"] // A LIST OF YOUR LICENCES
+        publish = true
+                       
+        publicDownloadNumbers = true
+    }
+}
 
 ext {
     // Where you will see your artifact in Bintray's web interface
@@ -43,7 +65,7 @@ ext {
     bintrayName = 'pinpad'
 
     // Maven metadata
-    publishedGroupId = 'co.paystack.android.design.widget'
+    publishedGroupId = 'xyz.kaosdev.resource'
     libraryName = 'pinpad'
     // Save yourself a head ache, and set this equal to the name of the Android Studio library
     // module. The artifact name needs to match the name of the library.

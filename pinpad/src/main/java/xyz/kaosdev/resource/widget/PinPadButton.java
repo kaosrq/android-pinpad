@@ -1,4 +1,4 @@
-package co.paystack.android.design.widget;
+package xyz.kaosdev.resource.widget;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

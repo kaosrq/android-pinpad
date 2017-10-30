@@ -1,4 +1,4 @@
-package co.paystack.android.design.widget;
+package xyz.kaosdev.resource.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -28,7 +28,7 @@ import java.util.Random;
  *
  *     XML Sample
  * <pre>
- * &lt;co.paystack.android.design.widget.PinPadView
+ * &lt;xyz.kaosdev.resource.widget.PinPadView
  *     xmlns:android="http://schemas.android.com/apk/res/android"
  *     xmlns:app="http://schema.android.com/apk/res/android.support.design"
  *      android:id="@+id/pinpadView"

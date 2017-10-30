@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.paystack.android.design.widget;
+package xyz.kaosdev.resource.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -49,13 +49,13 @@ class ForegroundRelativeLayout extends RelativeLayout {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ForegroundView,
                 defStyle, 0);
         mForegroundGravity = a.getInt(
-                R.styleable.ForegroundView_foregroundGravity, mForegroundGravity);
-        final Drawable d = a.getDrawable(R.styleable.ForegroundView_foreground);
+                R.styleable.ForegroundView_android_foregroundGravity, mForegroundGravity);
+        final Drawable d = a.getDrawable(R.styleable.ForegroundView_android_foreground);
         if (d != null) {
             setForeground(d);
         }
         mForegroundInPadding = a.getBoolean(
-                R.styleable.ForegroundView_foregroundInsidePadding, true);
+                R.styleable.ForegroundView_android_foregroundInsidePadding, true);
 
         a.recycle();
     }

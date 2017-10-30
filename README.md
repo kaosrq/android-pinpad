@@ -13,14 +13,14 @@ You do not need to clone this repository or download the files. Just add the fol
 
 ```gradle
 dependencies {
-  compile 'co.paystack.android.design.widget:pinpad:1.0.1'
+  compile 'xyz.kaosdev.resource.widget:pinpad:1.0.1'
 }
 ```
 
 ### XML layout usage:
 
 ```xml
-    <co.paystack.android.design.widget.PinPadView xmlns:android="http://schemas.android.com/apk/res/android"
+    <xyz.kaosdev.resource.widget.PinPadView xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/pinpadView"
             android:layout_width="match_parent"

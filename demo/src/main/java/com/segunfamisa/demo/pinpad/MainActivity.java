@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
-import co.paystack.android.design.widget.PinPadView;
+import xyz.kaosdev.resource.widget.PinPadView;
 
 public class MainActivity extends AppCompatActivity {
 
