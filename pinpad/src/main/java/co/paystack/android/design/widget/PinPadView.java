@@ -519,6 +519,11 @@ public class PinPadView extends FrameLayout {
         requestLayout();
     }
 
+    public void clear(){
+        String oldPin = mPinBuilder.toString();
+        mPinBuilder.setLength(0);
+        updatePin(oldPin, mPinBuilder.toString());
+    }
     /**
      * Click listener for the 0-9 buttons
      */
